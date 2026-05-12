@@ -20,7 +20,7 @@ function Results({ questionBank, userAnswers, restartQuiz }) {
 
     return (
         <div>
-            <h2>Quiz Completed!</h2>
+            <h2>You completed the quiz</h2>
             <p className="score">
                 You got {score} correct and {incorrectCount} incorrect out of {questionBank.length}!
             </p>
